@@ -19,6 +19,14 @@ Ideal for [your use case: e.g., embedded systems, SoC design, digital signal pro
 
 ---
 
+
+
+
+# 🎲 Additional documentation
+
+
+- [Analyzing the Impact of Different Real Number Formats on the Structural Reliability of TCUs in GPUs](https://ieeexplore.ieee.org/document/10321881)
+
 ## 📁 Directory Structure
 
 
