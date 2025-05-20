@@ -6,7 +6,7 @@
 
 ## 🧩 Overview
 
-This repository collects the fundamental blocks used in the Datapath of Tensor Core units (an in-chip hardware accelerator commonly found in GPUs and processors) [1](https://www.computer.org/csdl/proceedings-article/ispass/2019/08695642/19wBevIF5T2)[2](https://patents.google.com/patent/US10338919B2/en)
+This repository collects the fundamental blocks used in the Datapath of Tensor Core units (an in-chip hardware accelerator commonly found in GPUs and processors) [ [1] ](https://www.computer.org/csdl/proceedings-article/ispass/2019/08695642/19wBevIF5T2) [ [2] ](https://patents.google.com/patent/US10338919B2/en)
 
 This synthesizable VHDL IP core is designed for ease of integration. 
 
