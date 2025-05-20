@@ -1,6 +1,6 @@
-#  TC_core - low-level micro-architecture description of the datapath for Tensor Cores (Tensor Core Units, or Matrix Cores)
+#  TC_core
 
-*A representative configurable IP core for FPGA and ASIC designs.*
+*Low-level micro-architecture description of the datapath for Tensor Cores (Tensor Core Units, or Matrix Cores)*
 
 ---
 
@@ -25,4 +25,12 @@ Ideal for [your use case: e.g., embedded systems, SoC design, digital signal pro
 ![License](https://img.shields.io/github/license/your-username/your-repo-name)
 ![Build](https://img.shields.io/github/actions/workflow/status/your-username/your-repo-name/ci.yml)
 ![Version](https://img.shields.io/github/v/release/your-username/your-repo-name)
+
+
+
+
+
+
+
+
 
