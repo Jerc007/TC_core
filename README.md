@@ -68,11 +68,6 @@ The [**PyopenTCU**](https://github.com/TheColombianTeam/PyOpenTCU) tool is an ar
 
 
 
-![License](https://img.shields.io/github/license/your-username/your-repo-name)
-![Build](https://img.shields.io/github/actions/workflow/status/your-username/your-repo-name/ci.yml)
-![Version](https://img.shields.io/github/v/release/your-username/your-repo-name)
-
-
 
 
 
