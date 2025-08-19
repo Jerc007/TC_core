@@ -48,7 +48,7 @@ Ideal for [your use case: e.g., embedded systems, SoC design, digital signal pro
     └── TB                      # TB files for the verification of the TCU core
 
 
-# 🎲 Architectural Tools
+# 🎲 Architectural Simulation Tools
 
 The [**PyopenTCU**](https://github.com/TheColombianTeam/PyOpenTCU) tool is an architectural description of the TCU core that includes the scheduling, dispatching, and memory hierarchy management (i.e., register files and buffers), according to SASS MMA instructions [ [1] ](https://www.computer.org/csdl/proceedings-article/ispass/2019/08695642/19wBevIF5T2).
 
