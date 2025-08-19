@@ -44,9 +44,9 @@ Ideal for [your use case: e.g., embedded systems, SoC design, digital signal pro
     │   └── TB                  # TB files for DPU
     │
     ├── TCU_FP32_pipe/
-    ├── HW_sources              # HDL files for the integration of DPUs as the TCU core
-    └── TB                      # TB files for the verification of the TCU core
-
+    │   ├── HW_sources          # HDL files for the integration of DPUs as the TCU core
+    │   └── TB                  # TB files for the verification of the TCU core
+    ├──                         # Other shapes and number formats TCs
 
 # 🎲 Architectural Simulation Tools
 
