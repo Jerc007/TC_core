@@ -1,3 +1,10 @@
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+
+
 #  TC_core
 
 *RTL Low-level micro-architecture description of the datapath of Tensor Cores (Tensor Core Units, or Matrix Cores)*
