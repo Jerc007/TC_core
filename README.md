@@ -8,17 +8,17 @@
 
 This repository collects several fundamental blocks used in the Datapath of Tensor Core units (an in-chip hardware accelerator commonly found in GPUs and processors) [ [1] ](https://www.computer.org/csdl/proceedings-article/ispass/2019/08695642/19wBevIF5T2) [ [2] ](https://patents.google.com/patent/US10338919B2/en) [ [3] ](https://ieeexplore.ieee.org/abstract/document/9007413)
 
-A Tensor Core Unit (TCU), also referred to as a Matrix Core, is a Domain-Specific Architecture (DSA) designed to accelerate **mxnxk** matrix multiplications and serves as a fundamental building block in modern AI accelerators, commonly integrated into today’s processors and GPUs. At their core, they execute the fused matrix operation:
+A Tensor Core Unit (TCU), also referred to as a Matrix Core, is a Domain-Specific Architecture (DSA) designed to accelerate $m \times n \times k$ matrix multiplications and serves as a fundamental building block in modern AI accelerators, commonly integrated into today’s processors and GPUs. At their core, they execute the fused matrix operation:
 
 ![Equation](https://latex.codecogs.com/svg.image?&space;D=A\times&space;B&plus;C)
 
 
-where A and B are the input matrices with shapes (**mxk**) and (**kxn**), respectively. Moreover, C and D, with (**nxm**) shapes, represent the accumulation and output matrices, respectively. The operating format might use half- (FP16) or single-precision (FP32) floating point, as well as integer (INT) or custom formats, e.g., Posit16, Posit32, or FP8.
+where $A$ and $B$ are the input matrices with shapes ($m \times k$) and ($k \times n$), respectively. Moreover, $C$ and $D$, with ($n \times m$) shapes, represent the accumulation and output matrices, respectively. The operating format might use half- (FP16) or single-precision (FP32) floating point, as well as integer (INT) or custom formats, e.g., Posit16, Posit32, or FP8.
 
 
 ![Alt text](images/TCU_general_shape_4x4x4.png)
 
-As shown in the illustration, a **4x4x4** TCU comprises **16** Dot-Product Units (DPUs). Each DPU contains a layer of multipliers followed by multiple layers of adders, forming the pipeline that performs high-throughput matrix multiplications. 
+As shown in the illustration, a $4 \times 4 \times 4$ TCU comprises **16** Dot-Product Units (DPUs). Each DPU contains a layer of multipliers followed by multiple layers of adders, forming the pipeline that performs high-throughput matrix multiplications. 
 Importantly, every adder and multiplier is itself built from lower-level components such as shifters, lead-zero counters (LZCs), and integer adders/multipliers, illustrating the hierarchical design complexity of the accelerator.
 
 The synthesizable VHDL IP cores are designed for ease of integration as a coprocessor or accelerator on Processor-based systems.
