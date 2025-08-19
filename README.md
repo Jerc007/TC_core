@@ -33,6 +33,17 @@ Ideal for [your use case: e.g., embedded systems, SoC design, digital signal pro
 
 ## 📁 Directory Structure
 
+project/
+├── docs/
+│ ├── README.md
+│ └── images/
+│ └── diagram.png
+├── src/
+│ ├── main.py
+│ └── utils.py
+└── tests/
+└── test_main.py
+
 
 TC_core/
 │
