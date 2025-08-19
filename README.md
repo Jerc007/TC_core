@@ -18,14 +18,8 @@ where A and B are the input matrices with shapes (**mxk**) and (**kxn**), respec
 
 ![Alt text](images/TCU_general_shape_4x4x4.png)
 
-
-
-As shown in Figure 10, the TCU under study is composed of 16 Dot-Product Units (DPUs). Each DPU contains a layer of multipliers followed by multiple layers of FP32 adders, forming the pipeline that performs high-throughput matrix multiplications. Importantly, every FP32 adder and multiplier is itself built from lower-level components such as shifters, lead-zero counters (LZCs), and integer adders/multipliers, illustrating the hierarchical design complexity of the accelerator.
-
-
-
-
-
+As shown in the illustration, a **4x4x4** TCU comprises **16** Dot-Product Units (DPUs). Each DPU contains a layer of multipliers followed by multiple layers of adders, forming the pipeline that performs high-throughput matrix multiplications. 
+Importantly, every adder and multiplier is itself built from lower-level components such as shifters, lead-zero counters (LZCs), and integer adders/multipliers, illustrating the hierarchical design complexity of the accelerator.
 
 The synthesizable VHDL IP cores are designed for ease of integration as a coprocessor or accelerator on Processor-based systems.
 
