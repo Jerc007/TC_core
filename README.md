@@ -35,17 +35,27 @@ Ideal for [your use case: e.g., embedded systems, SoC design, digital signal pro
 
 
 TC_core/
+
 │
 
 ├── README.md               # Overview of the project
+
 │
+
 ├── DPU_core/
+
 │   ├── DPU_FP_32           # HDL files of the DPU description
+
 │   ├── files               # Scripting files for running the TB through ModelSim
+
 │   └── TB                  # TB files for DPU
+
 │
+
 ├── TCU_FP32_pipe/
+
     ├── HW_sources          # HDL files for the integration of DPUs as the TCU core
+    
     └── TB                  # TB files for the verification of the TCU core
 
 
