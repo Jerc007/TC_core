@@ -12,7 +12,7 @@ The synthesizable VHDL IP cores are designed for ease of integration as a coproc
 
 Ideal for [your use case: e.g., embedded systems, SoC design, digital signal processing], it offers:
 
-[- ✅ Standards-compliant design ([e.g., AXI4-Lite, AMBA, Wishbone])]: # 
+<!--- ✅ Standards-compliant design ([e.g., AXI4-Lite, AMBA, Wishbone]) -->
 - 🔧 Configurable parameters
 - 🧪 Fully testbenched with simulation support
 - 📚 Clean documentation with example integrations
