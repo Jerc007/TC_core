@@ -66,12 +66,16 @@ The [**PyopenTCU**](https://github.com/TheColombianTeam/PyOpenTCU) tool is an ar
 - [Analyzing the Impact of Scheduling Policies on the Reliability of GPUs Running CNN Operations](https://ieeexplore.ieee.org/abstract/document/10538940)
 
 
+## 🙌 Credits
 
+- Project developed by Josie E. Rodriguez Condia, [Robert Limas Sierra](https://github.com/robalexlimas), [Juan David Guerrero B.](https://juandavid-guerrero.github.io/).  
+- [Electronic CAD & Reliability Group](https://cad.polito.it/)
+- Department of Control and Computer Engineering (DAUIN), Politecnico di Torino, Turin, Italy.
+  
 
+## 📬 Contact
 
+For questions, suggestions, or collaboration, feel free to reach out:
 
-
-
-
-
-
+- **Name:** Josie E. Rodriguez Condia
+- **Email:** josie.rodriguez@polito.it  
