@@ -16,7 +16,7 @@ A Tensor Core Unit (TCU), also referred to as a Matrix Core, is a Domain-Specifi
 where A and B are the input matrices with shapes (**mxk**) and (**kxn**), respectively. Moreover, C and D, with (**nxm**) shapes, represent the accumulation and output matrices, respectively. The operating format might use half- (FP16) or single-precision (FP32) floating point, as well as integer (INT) or custom formats, e.g., Posit16, Posit32, or FP8.
 
 
-![Alt text](path/to/image.png)
+![Alt text](https://github.com/Jerc007/TC_core/images/TCU_general_shape_4x4x4.png)
 
 
 
