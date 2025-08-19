@@ -39,9 +39,7 @@ TC_core/
 │
 
 ├── README.md               # Overview of the project
-
 │
-
 ├── DPU_core/
 
 │   ├── DPU_FP_32           # HDL files of the DPU description
