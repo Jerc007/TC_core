@@ -13,10 +13,11 @@ A Tensor Core Unit (TCU), also referred to as a Matrix Core, is a Domain-Specifi
 ![Equation](https://latex.codecogs.com/svg.image?&space;D=A\times&space;B&plus;C)
 
 
-where A and B are the input matrices with shapes (**mxk**) and (**kxn**), respectively. Moreover, C and D, with (**nxm**) shapes, represent the accumulation and output matrices, respectively.
+where A and B are the input matrices with shapes (**mxk**) and (**kxn**), respectively. Moreover, C and D, with (**nxm**) shapes, represent the accumulation and output matrices, respectively. The operating format might use half- (FP16) or single-precision (FP32) floating point, as well as integer (INT) or custom formats, e.g., Posit16, Posit32, or FP8.
 
 
-in single-precision floating point (FP32).
+![Alt text](path/to/image.png)
+
 
 
 As shown in Figure 10, the TCU under study is composed of 16 Dot-Product Units (DPUs). Each DPU contains a layer of multipliers followed by multiple layers of FP32 adders, forming the pipeline that performs high-throughput matrix multiplications. Importantly, every FP32 adder and multiplier is itself built from lower-level components such as shifters, lead-zero counters (LZCs), and integer adders/multipliers, illustrating the hierarchical design complexity of the accelerator.
