@@ -30,17 +30,37 @@ Ideal for [your use case: e.g., embedded systems, SoC design, digital signal pro
 - 🧪 Fully testbenched with simulation support
 - 📚 Clean documentation with example integrations
 
----
+
+## 📁 Directory Structure
 
 
+TC_core/
+│
+├── README.md               # Overview of the project
+│
+├── DPU_core/
+│   ├── DPU_FP_32           # HDL files of the DPU description
+│   ├── files               # Scripting files for running the TB through ModelSim
+│   └── TB                  # TB files for DPU
+│
+├── TCU_FP32_pipe/
+    ├── HW_sources          # HDL files for the integration of DPUs as the TCU core
+    └── TB                  # TB files for the verification of the TCU core
 
 
 # 🎲 Additional documentation
 
-
 - [Analyzing the Impact of Different Real Number Formats on the Structural Reliability of TCUs in GPUs](https://ieeexplore.ieee.org/document/10321881)
 
-## 📁 Directory Structure
+- [Exploring Hardware Fault Impacts on Different Real Number Representations of the Structural Resilience of TCUs in GPUs](https://www.mdpi.com/2079-9292/13/3/578)
+  
+- [Analyzing the Reliability of TCUs Through Micro-architecture and Structural Evaluations for Two Real Number Formats](https://link.springer.com/chapter/10.1007/978-3-031-70947-0_8)
+
+- [Effective Application-level Error Modeling of Permanent Faults on AI Accelerators](https://ieeexplore.ieee.org/abstract/document/10616087)
+
+- [Analyzing the Impact of Scheduling Policies on the Reliability of GPUs Running CNN Operations](https://ieeexplore.ieee.org/abstract/document/10538940)
+
+
 
 
 ![License](https://img.shields.io/github/license/your-username/your-repo-name)
