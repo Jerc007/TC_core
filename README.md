@@ -8,7 +8,7 @@
 
 This repository collects several fundamental blocks used in the Datapath of Tensor Core units (an in-chip hardware accelerator commonly found in GPUs and processors) [ [1] ](https://www.computer.org/csdl/proceedings-article/ispass/2019/08695642/19wBevIF5T2) [ [2] ](https://patents.google.com/patent/US10338919B2/en) [ [3] ](https://ieeexplore.ieee.org/abstract/document/9007413)
 
-A Tensor Core Unit (TCU), also referred to as a Matrix Core, is a Domain-Specific Architecture (DSA) designed to accelerate mxnxk matrix multiplications. TCUs are fundamental building blocks in modern AI accelerators, commonly integrated into today’s processors and GPUs. At their core, they execute the fused matrix operation:
+A Tensor Core Unit (TCU), also referred to as a Matrix Core, is a Domain-Specific Architecture (DSA) designed to accelerate <p style="color:blue;">mxnxk</p> matrix multiplications and serves as a fundamental building block in modern AI accelerators, commonly integrated into today’s processors and GPUs. At their core, they execute the fused matrix operation:
 
 𝐷 = 𝐴 × 𝐵 + 𝐶
 
